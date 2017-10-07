@@ -1,0 +1,28 @@
+{
+  "name": "overwebs-play-page",
+  "description": "Overwebs play page",
+  "main": "overwebs-play-page.js",
+  "repository": "git@github.com:ruphin/overwebs-play-page.git",
+  "author": "Goffert van Gool",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-minify": "^0.2.0",
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-sourcemaps": "^2.6.1"
+  },
+  "dependencies": {
+    "gluonjs": "^2.0.0-preview.4",
+    "overwebs-fonts": "^1.0.0-rc1",
+    "overwebs-play-tile": "^0.0.1",
+    "overwebs-player-data": "^0.0.1",
+    "overwebs-player-widget": "^0.0.2"
+  },
+  "scripts": {
+    "build": "gulp",
+    "dev": "gulp serve",
+    "publish": "git add overwebs-play-page.js"
+  }
+}
