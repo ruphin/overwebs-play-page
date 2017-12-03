@@ -25,5 +25,5 @@
     "dev": "gulp serve",
     "publish": "git add overwebs-play-page.js"
   },
-  "version": "0.0.1"
+  "version": "1.0.0"
 }
