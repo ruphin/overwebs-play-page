@@ -14,11 +14,11 @@
     "gulp-sourcemaps": "^2.6.1"
   },
   "dependencies": {
-    "gluonjs": "^2.0.0-preview.4",
-    "overwebs-fonts": "^1.0.0-rc1",
-    "overwebs-play-tile": "^0.0.1",
-    "overwebs-player-data": "^0.0.1",
-    "overwebs-player-widget": "^0.0.2"
+    "gluonjs": "^2.0.2",
+    "overwebs-fonts": "^1.0.0",
+    "overwebs-play-tile": "^1.0.0",
+    "overwebs-player-data": "^1.0.0",
+    "overwebs-player-widget": "^1.0.0"
   },
   "scripts": {
     "build": "gulp",

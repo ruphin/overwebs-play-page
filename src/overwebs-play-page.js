@@ -12,8 +12,7 @@ class OverwebsPlayPage extends GluonElement {
       display: block;
       position: relative;
       overflow: hidden;
-      width: 100%;
-      min-height: 100vh;
+      min-height: 100%;
       background: rgba(0, 0, 0, 0.25);
     }
 

@@ -1312,9 +1312,9 @@ glogg@^1.0.0:
   dependencies:
     sparkles "^1.0.0"
 
-gluonjs@^2.0.0-preview.3, gluonjs@^2.0.0-preview.4:
-  version "2.0.0-preview.4"
-  resolved "https://registry.yarnpkg.com/gluonjs/-/gluonjs-2.0.0-preview.4.tgz#38d8587ec6267438cba9573e2ff6bd547d855e45"
+gluonjs@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/gluonjs/-/gluonjs-2.0.2.tgz#8b0228a4c2ca9b2c2dd35adb042bb9aaa4c80495"
   dependencies:
     lit-html "^0.6.0"
 
@@ -2247,29 +2247,29 @@ osenv@^0.1.4:
     os-homedir "^1.0.0"
     os-tmpdir "^1.0.0"
 
-overwebs-fonts@^1.0.0-rc1:
-  version "1.0.0-rc1"
-  resolved "https://registry.yarnpkg.com/overwebs-fonts/-/overwebs-fonts-1.0.0-rc1.tgz#e0ec9909f42b62ee0cf7ac78b9fdd4278e2695b6"
+overwebs-fonts@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/overwebs-fonts/-/overwebs-fonts-1.0.0.tgz#004ec5e8df8411986dc72551d47d1514615911dd"
 
-overwebs-play-tile@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/overwebs-play-tile/-/overwebs-play-tile-0.0.1.tgz#4198d941eb6d119d289c30d41f8e4f0fc1fb070d"
+overwebs-play-tile@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/overwebs-play-tile/-/overwebs-play-tile-1.0.0.tgz#e3e4577b9fe1063c50d351abef3d5048d7a778e3"
   dependencies:
-    gluonjs "^2.0.0-preview.4"
-    overwebs-fonts "^1.0.0-rc1"
+    gluonjs "^2.0.2"
+    overwebs-fonts "^1.0.0"
 
-overwebs-player-data@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/overwebs-player-data/-/overwebs-player-data-0.0.1.tgz#0d7b21926a5a5e657e399b8e2a8ba1412e1ec01b"
+overwebs-player-data@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/overwebs-player-data/-/overwebs-player-data-1.0.0.tgz#821d66c2bac2b471f607bffc6f46effdc699d7d0"
   dependencies:
-    gluonjs "^2.0.0-preview.4"
+    gluonjs "^2.0.2"
 
-overwebs-player-widget@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/overwebs-player-widget/-/overwebs-player-widget-0.0.2.tgz#757c2c6d1f9508296c78deedd5236f70ead54015"
+overwebs-player-widget@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/overwebs-player-widget/-/overwebs-player-widget-1.0.1.tgz#7d2897bef29c4eaa709109ca4f0a56c593a1de3b"
   dependencies:
-    gluonjs "^2.0.0-preview.3"
-    overwebs-fonts "^1.0.0-rc1"
+    gluonjs "^2.0.2"
+    overwebs-fonts "^1.0.0"
 
 parse-filepath@^1.0.1:
   version "1.0.1"
