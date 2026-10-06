@@ -1,17 +1,26 @@
 {
   "name": "overwebs-play-page",
   "description": "Overwebs play page",
-  "main": "overwebs-play-page.js",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/overwebs-play-page.js",
+  "module": "dist/overwebs-play-page.js",
+  "exports": {
+    ".": "./dist/overwebs-play-page.js",
+    "./overwebs-play-page.js": "./dist/overwebs-play-page.js",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
   "repository": "git@github.com:ruphin/overwebs-play-page.git",
   "author": "Goffert van Gool",
   "license": "MIT",
-  "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-preset-minify": "^0.2.0",
-    "browser-sync": "^2.18.13",
-    "gulp": "^3.9.1",
-    "gulp-babel": "^7.0.0",
-    "gulp-sourcemaps": "^2.6.1"
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "gluonjs": "^2.0.2",
@@ -20,10 +29,7 @@
     "overwebs-player-data": "^1.0.0",
     "overwebs-player-widget": "^1.0.0"
   },
-  "scripts": {
-    "build": "gulp",
-    "dev": "gulp serve",
-    "publish": "git add overwebs-play-page.js"
-  },
-  "version": "1.0.0"
+  "devDependencies": {
+    "vite": "^8.3.3"
+  }
 }

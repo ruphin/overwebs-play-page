@@ -1,8 +1,8 @@
-import { GluonElement, html } from '../gluonjs/gluon.js';
-import '../overwebs-play-tile/overwebs-play-tile.js';
-import '../overwebs-player-data/overwebs-player-data.js';
-import '../overwebs-player-widget/overwebs-player-widget.js';
-import '../overwebs-fonts/overwebs-fonts.js';
+import { GluonElement, html } from 'gluonjs/gluon.js';
+import 'overwebs-play-tile/overwebs-play-tile.js';
+import 'overwebs-player-data/overwebs-player-data.js';
+import 'overwebs-player-widget/overwebs-player-widget.js';
+import 'overwebs-fonts/overwebs-fonts.js';
 
 class OverwebsPlayPage extends GluonElement {
   get template() {
